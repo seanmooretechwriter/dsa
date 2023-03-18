@@ -1,3 +1,21 @@
 # dsa
 
 Modern JavaScript implementations for common data structures and algorithms.
+
+Data structures and algorithms are fundamental topics in computer science that rely heavily on mathematical concepts. Some of the most important math concepts to learn for data structures and algorithms are:
+
+Discrete Mathematics: Discrete mathematics is the study of mathematical structures that are discrete and countable, such as graphs, sets, and logic. Many concepts in data structures and algorithms, such as graph theory, combinatorics, and Boolean algebra, are based on discrete mathematics.
+
+Calculus: Calculus is the study of continuous change and is important in understanding the time complexity of algorithms. Big-O notation, which is used to analyze the time complexity of algorithms, involves limits and derivatives from calculus.
+
+Linear Algebra: Linear algebra is the study of vectors, matrices, and linear transformations. It is important in many applications of data structures and algorithms, such as machine learning and computer graphics.
+
+Probability and Statistics: Probability and statistics are important in analyzing the performance of algorithms and in designing randomized algorithms. They are also used in machine learning and data analysis.
+
+Number Theory: Number theory is the study of integers and their properties. It is important in cryptography, which is an important application of data structures and algorithms.
+
+Combinatorics: Combinatorics is the study of counting and arrangements. It is important in understanding the complexity of algorithms that involve permutations, combinations, and arrangements.
+
+Set Theory: Set theory is the study of sets and their properties. It is important in understanding the data structures that are used to store and manipulate sets, such as hash tables and binary search trees.
+
+In summary, understanding these mathematical concepts can be very beneficial in learning and applying data structures and algorithms in computer science.
