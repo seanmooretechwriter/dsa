@@ -25,6 +25,7 @@ const maxSubArray = (nums) => {
   return max
 }
 */
+
 const maxSubArray = (a) => {
   let maxSoFar = a[0]
   let maxEndingHere = a[0]

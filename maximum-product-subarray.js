@@ -1,25 +1,39 @@
 function maxProductSubarray(nums) {
-  if (nums.length === 0) {
-    return 0
-  }
-
-  let maxProduct = nums[0]
-  let minProduct = nums[0]
   let maxSoFar = nums[0]
+  let maxEndingHere = nums[0]
+  let minEndingHere = nums[0]
 
   for (let i = 1; i < nums.length; i++) {
     const num = nums[i]
-    const tempMaxProduct = Math.max(num, maxProduct * num, minProduct * num)
-    const tempMinProduct = Math.min(num, maxProduct * num, minProduct * num)
 
-    maxProduct = tempMaxProduct
-    minProduct = tempMinProduct
+    // update the maximum and minimum ending here
+    const previousMaxEndingHere = maxEndingHere
+    maxEndingHere = Math.max(num, num * maxEndingHere, num * minEndingHere)
+    minEndingHere = Math.min(
+      num,
+      num * previousMaxEndingHere,
+      num * minEndingHere,
+    )
 
-    maxSoFar = Math.max(maxSoFar, maxProduct)
+    // update the maximum so far
+    maxSoFar = Math.max(maxSoFar, maxEndingHere)
   }
-
   return maxSoFar
 }
+
+console.log(
+  `maxProductSubarray([1, 2, 3, 4, 5, 0]: ${maxProductSubarray([
+    1,
+    2,
+    3,
+    4,
+    5,
+    0,
+  ])}`,
+)
+
+console.log(`maxProductSubarray([0]: ${maxProductSubarray([0, -1, -12, 4, 6])}`)
+console.log(`maxProductSubarray([0]: ${maxProductSubarray([0, 2, -3, 7, -1])}`)
 
 const findCurrentMaximum = (
   currentElementValue,
