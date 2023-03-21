@@ -1,4 +1,4 @@
-function findOdd(a) {
+const findOddInt = (a) => {
   const occuranceCountTable = {}
 
   for (let i = 0; i < a.length; i++) {
@@ -15,3 +15,9 @@ function findOdd(a) {
     }
   }
 }
+
+const a = [1, 2, 2, 3, 3, 3, 4, 3, 3, 3, 2, 2, 1]
+console.log(`findOddInt: ${findOddInt(a)}`)
+
+// from Codewars
+const findOdd = (xs) => xs.reduce((a, b) => a ^ b)
