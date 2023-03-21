@@ -1,6 +1,6 @@
 # dsa
 
-Modern JavaScript implementations for common data structures and algorithms.
+Modern JavaScript implementations for common data structures and algorithms. LeetCode, Bline75 and CodeWarz were all used to write the code in this repository.
 
 Data structures and algorithms are fundamental topics in computer science that rely heavily on mathematical concepts. Some of the most important math concepts to learn for data structures and algorithms are:
 
