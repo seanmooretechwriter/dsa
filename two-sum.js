@@ -1,18 +1,35 @@
-const twoSum = (nums, target) => {
-  let complementsHashTable = {}
-  //let complements = {}
-  for (let i = 0; i < nums.length; i++) {
-    let currentIndex = i
-    let currentElement = nums[i]
-    let complement = target - currentElement
+/*
+function twoSum(nums, target) {
+  const seen = {} // create an object to store seen values
 
-    if (complementsHashTable[complement] !== undefined) {
-      //Object.keys(complements).forEach((prop) => console.log(prop))
-      return [complementsHashTable[complement], currentIndex]
+  for (let i = 0; i < nums.length; i++) {
+    const complement = target - nums[i] // calculate the complement
+
+    console.log(`complement: ${complement}`)
+    console.log(`seen[complement]: ${seen[complement]}`)
+
+    if (seen[complement] !== undefined) {
+      // if the complement is in the object, return the indices
+      return [seen[complement], i]
     }
 
-    complementsHashTable[currentElement] = currentIndex
-    //complements[nums[i]] = i
+    seen[nums[i]] = i // store the current value in the object
+  }
+
+  return null // if no solution found, return null
+}
+*/
+
+function twoSum(numbers, target) {
+  const ht = {}
+
+  for (let i = 0; i < numbers.length; i++) {
+    let comp = target - numbers[i]
+
+    if (ht[comp] !== undefined) {
+      return [ht[comp], i]
+    }
+    ht[numbers[i]] = i
   }
 }
 
