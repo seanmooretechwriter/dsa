@@ -124,3 +124,16 @@ console.log('threeSum(a): ', threeSum(a))
 
 console.log('threeSumTarget(a, 0): ', threeSumTarget(a, 0))
 console.log('threeSumTarget(a, 1): ', threeSumTarget(a, 1))
+
+const d = [0, 0, 1, 3, 4, 5, 5, 6, 7, 5, 9, 10, 1, 0, 3]
+const r = []
+d.sort((a, b) => a - b)
+for (let i = 0; i < d.length; i++) {
+  if (i > 0 && d[i] === d[i - 1]) {
+    continue
+  }
+
+  r.push(d[i])
+}
+
+console.log(`r: ${r}`)
