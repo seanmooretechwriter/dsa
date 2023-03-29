@@ -2,7 +2,7 @@
 
 Modern JavaScript implementations for common data structures and algorithms. Several solutions are presented in multiple forms such as OOP, FP, declarative, iterative, recursive and so on.
 
-LeetCode, Blind 75 and CodeWarz were all used to write the code in this repository. The major categories of Blind 75 are the path and emphasis of the code round in this repo. The main Blind 75 categories include Array, Binary, Dynamic Programming, Graph, Interval, Linked List, Matrix, String, and Tree.
+LeetCode, Blind 75 and CodeWarz were all used to write the code in this repository. The major categories of Blind 75 are the path and emphasis of the code found in this repo. The main Blind 75 categories include Array, Binary, Dynamic Programming, Graph, Interval, Linked List, Matrix, String, and Tree.
 
 - Linked Lists (add-two-numbers.js)
 - Binary Heap (binary-heap.js)
@@ -56,5 +56,3 @@ Number Theory: Number theory is the study of integers and their properties. It i
 Combinatorics: Combinatorics is the study of counting and arrangements. It is important in understanding the complexity of algorithms that involve permutations, combinations, and arrangements.
 
 Set Theory: Set theory is the study of sets and their properties. It is important in understanding the data structures that are used to store and manipulate sets, such as hash tables and binary search trees.
-
-In summary, understanding these mathematical concepts can be very beneficial in learning and applying data structures and algorithms in computer science.
