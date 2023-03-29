@@ -1,6 +1,8 @@
 # dsa
 
-Modern JavaScript implementations for common data structures and algorithms. LeetCode, Blind 75 and CodeWarz were all used to write the code in this repository.
+Modern JavaScript implementations for common data structures and algorithms. Several solutions are presented in multiple forms such as OOP, FP, declarative, iterative, recursive and so on.
+
+LeetCode, Blind 75 and CodeWarz were all used to write the code in this repository. The major categories of Blind 75 are the path and emphasis of the code round in this repo. The main Blind 75 categories include Array, Binary, Dynamic Programming, Graph, Interval, Linked List, Matrix, String, and Tree.
 
 - Linked Lists (add-two-numbers.js)
 - Binary Heap (binary-heap.js)
