@@ -119,6 +119,62 @@ function threeSumTarget(nums, sum) {
   return result
 }
 
+// This function takes an array of numbers as input
+function threeSumWithComments(nums) {
+  // Sort the input array in ascending order
+  nums.sort((a, b) => a - b)
+
+  // Create an empty array to hold the result
+  const result = []
+
+  // Loop through the input array
+  for (let i = 0; i < nums.length - 2; i++) {
+    // If the current number is equal to the previous number, continue to the next iteration
+    if (i > 0 && nums[i] === nums[i - 1]) {
+      continue
+    }
+
+    // Set left and right pointers for two numbers to be compared with the current number
+    let left = i + 1
+    let right = nums.length - 1
+
+    // While left pointer is smaller than right pointer
+    while (left < right) {
+      // Calculate the sum of current number, left and right number
+      const sum = nums[i] + nums[left] + nums[right]
+
+      // If the sum is smaller than 0, move the left pointer to the right
+      if (sum < 0) {
+        left++
+      }
+      // If the sum is greater than 0, move the right pointer to the left
+      else if (sum > 0) {
+        right--
+      }
+      // If the sum is equal to 0, add the triplet of numbers to the result
+      // array and move the left and right pointers to the next distinct numbers
+      else {
+        result.push([nums[i], nums[left], nums[right]])
+        left++
+        right--
+
+        // Skip the duplicates of left number
+        while (left < right && nums[left] === nums[left - 1]) {
+          left++
+        }
+
+        // Skip the duplicates of right number
+        while (left < right && nums[right] === nums[right + 1]) {
+          right--
+        }
+      }
+    }
+  }
+
+  // Return the resulting array
+  return result
+}
+
 const a = [5, 1, -7, -6, -5, 6, 0] //[-1, 0, 1, 2, -1, -4]
 console.log('threeSum(a): ', threeSum(a))
 
