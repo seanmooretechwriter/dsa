@@ -20,7 +20,7 @@ function twoSum(nums, target) {
 }
 */
 
-function twoSum(numbers, target) {
+function twoSumHT(numbers, target) {
   const ht = {}
 
   for (let i = 0; i < numbers.length; i++) {
@@ -31,6 +31,27 @@ function twoSum(numbers, target) {
     }
     ht[numbers[i]] = i
   }
+}
+
+function twoSum(nums, target) {
+  const sortedNums = nums.slice().sort((a, b) => a - b)
+  let left = 0
+  let right = sortedNums.length - 1
+
+  while (left < right) {
+    const sum = sortedNums[left] + sortedNums[right]
+    if (sum === target) {
+      const leftIndex = nums.indexOf(sortedNums[left])
+      const rightIndex = nums.lastIndexOf(sortedNums[right])
+      return [leftIndex, rightIndex]
+    } else if (sum < target) {
+      left++
+    } else {
+      right--
+    }
+  }
+
+  return []
 }
 
 console.log(`twoSum: ${twoSum([4, 8, 3, 1, 12], 7)}`)
