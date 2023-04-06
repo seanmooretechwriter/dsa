@@ -1,4 +1,4 @@
-const climbStairs = (n) => {
+const climbStairsGPT = (n) => {
   // Create an array to store the number of ways to climb each step
   const dp = new Array(n + 1).fill(0)
 
@@ -17,5 +17,14 @@ const climbStairs = (n) => {
   return dp[n]
 }
 
+const climbStairs = (n) => {
+  const steps = [1, 1]
+  for (let i = 2; i < n + 1; i++) {
+    steps.push(steps[i - 1] + steps[i - 2])
+  }
+  return steps[n]
+}
+
 console.log(`climbStairs(2): ${climbStairs(2)}`)
 console.log(`climbStairs(3): ${climbStairs(3)}`)
+console.log(`climbStairs(8): ${climbStairs(8)}`)
