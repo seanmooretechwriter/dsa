@@ -1,31 +1,37 @@
-const computeMaximumSubarray = (a) => {
-  let max = 0
-  for (let i = 1; i < a.length; i++) {
-    a[i] = Math.max(a[i], a[i] + a[i - 1])
-    max = Math.max(max, a[i])
-  }
-  return max
-}
-
-const a = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
-console.log(`a: ${a}`)
-console.log(`computeMaximumSubarray: ${computeMaximumSubarray(a)}`)
-console.log(`a: ${a}`)
-
 /*
-const maxSubArray = (nums) => {
-  let max = nums[0]
-  let sum = nums[0]
 
-  for (let i = 1; i < nums.length; i++) {
-    sum = Math.max(nums[i], sum + nums[i])
-    max = Math.max(sum, max)
-  }
+53. Maximum Subarray
 
-  return max
-}
+Given an integer array nums, find the 
+subarray
+ with the largest sum, and return its sum.
+
+Example 1:
+
+Input: nums = [-2,1,-3,4,-1,2,1,-5,4]
+Output: 6
+Explanation: The subarray [4,-1,2,1] has the largest sum 6.
+Example 2:
+
+Input: nums = [1]
+Output: 1
+Explanation: The subarray [1] has the largest sum 1.
+Example 3:
+
+Input: nums = [5,4,-1,7,8]
+Output: 23
+Explanation: The subarray [5,4,-1,7,8] has the largest sum 23.
+
+Constraints:
+
+1 <= nums.length <= 105
+-104 <= nums[i] <= 104
+
+Follow up: If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
+
 */
 
+// The time complexity of the given code is O(n), where n is the length of the input array a.
 const maxSubArray = (a) => {
   let maxSoFar = a[0]
   let maxEndingHere = a[0]
@@ -36,6 +42,9 @@ const maxSubArray = (a) => {
   }
   return maxSoFar
 }
+
+const b = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
+console.log(`maxSubArray: ${maxSubArray(b)}`)
 
 const maxSubArrayFP = (nums) => {
   const maxSum = nums.reduce(
@@ -48,74 +57,3 @@ const maxSubArrayFP = (nums) => {
 
   return maxSum.max
 }
-
-const kadane = (a) => {
-  let best_sum = 0
-  let current_sum = 0
-  for (num of a) {
-    current_sum = Math.max(0, current_sum + num)
-    best_sum = Math.max(best_sum, current_sum)
-  }
-  return best_sum
-}
-
-/*
-1. num: -2, current_sum: 0, best_sum: 0
-2. num: 1, current_sum: 1, best_sum: 1
-3. num: -3, current_sum: 0, best_sum: 1 
-4. num: 4, current_sum: 4, best_sum: 4 
-5. num: -1, current_sum: 3, best_sum: 4 
-6. num: 2, current_sum: 5, best_sum: 5 
-7. num: 1, current_sum: 6, best_sum: 6 
-8. num: -5, current_sum: 1, best_sum: 6 
-9. num: 4, current_sum: 5, best_sum: 6 
-*/
-
-const b = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
-console.log(`maxSubArray: ${maxSubArray(b)}`)
-
-const c = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
-//console.log(`kadane: ${kadane(c)}`)
-
-/*
-Initialize:
-    max_so_far = 0
-    max_ending_here = 0
-
-Loop for each element of the array:
-    max_ending_here = max_ending_here + a[i]
-    if max_ending_here < 0:
-        max_ending_here = 0
-    if max_so_far < max_ending_here:
-        max_so_far = max_ending_here
-
-Return max_so_far
-*/
-
-const assertEquals = (actual, expected, message) => {
-  if (actual !== expected) {
-    console.log(message || `Expected ${expected} but got ${actual}`)
-  }
-}
-
-//assertEquals(5, kadane(c))
-//assertEquals(6, kadane(c))
-
-const findMaxSubarray = (a) => {
-  let maxSoFar = 0
-  let maxEndingHere = 0
-
-  for (let i = 0; i < a.length; i++) {
-    maxEndingHere = maxEndingHere + a[i]
-    if (maxEndingHere < 0) {
-      maxEndingHere = 0
-    }
-    if (maxSoFar < maxEndingHere) {
-      maxSoFar = maxEndingHere
-    }
-  }
-  return maxSoFar
-}
-
-assertEquals(5, findMaxSubarray(c))
-assertEquals(6, findMaxSubarray(c))
