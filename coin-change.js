@@ -31,7 +31,7 @@ Constraints:
 
 */
 
-//The time complexity of the given code is O(amount * coins.length).
+//The time complexity of the coin change code is O(amount * coins.length).
 const coinChange = (coins, amount) => {
   let dp = new Array(amount + 1).fill(amount + 1)
   dp[0] = 0
