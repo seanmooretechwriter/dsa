@@ -60,6 +60,19 @@ const lengthOfLIS = (nums) => {
   return piles.length
 }
 
+console.log(
+  `lengthOfLIS([10,9,2,5,3,7,101,18]): ${lengthOfLIS([
+    10,
+    9,
+    2,
+    5,
+    3,
+    7,
+    101,
+    18,
+  ])}`,
+) // expected output: 4
+
 // The runtime complexity of the given code is O(n^2), where n is the length of the input array nums.
 const lengthOfLISDP = (nums) => {
   if (!nums || nums.length === 0) {
