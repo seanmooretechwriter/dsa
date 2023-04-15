@@ -30,6 +30,7 @@ Constraints:
 
 */
 
+// The runtime complexity of the rob function is O(n), where n is the length of the input array nums.
 const rob = (nums) => {
   if (nums.length === 1) {
     return nums[0]
@@ -49,6 +50,25 @@ const robHelper = (nums, start, end) => {
     prevMax = temp
   }
   return currMax
+}
+
+const robAlt = (nums = []) => {
+  const memo = {}
+  const aux = (index = 0, right = nums.length - 1) => {
+    memo[index] = memo[index] || {}
+    if (memo[index][right] !== undefined) {
+      return memo[index][right]
+    }
+    if (index >= right + 1) {
+      return 0
+    }
+    memo[index][right] = Math.max(
+      aux(index + 2, index === 0 ? right - 1 : right) + nums[index],
+      aux(index + 1, right),
+    )
+    return memo[index][right]
+  }
+  return aux()
 }
 
 const a = [2, 3, 2]
