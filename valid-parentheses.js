@@ -41,6 +41,7 @@ const isValid = (s) => {
   }
 
   for (let i = 0; i < s.length; i++) {
+    console.log(`stack: ${stack}`)
     const char = s[i]
 
     if (pairs[char]) {
@@ -55,7 +56,7 @@ const isValid = (s) => {
   return stack.length === 0
 }
 
-const s = '()'
+const s = '(({([])}))'
 console.log(`isValid(${s}): ${isValid(s)}`) // true
 
 const s2 = '()[]{}'
