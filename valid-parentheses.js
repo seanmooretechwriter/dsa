@@ -41,7 +41,6 @@ const isValid = (s) => {
   }
 
   for (let i = 0; i < s.length; i++) {
-    console.log(`stack: ${stack}`)
     const char = s[i]
 
     if (pairs[char]) {
