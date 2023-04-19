@@ -48,3 +48,9 @@ const expandAroundCenter = (s, left, right) => {
 
   return right - left - 1
 }
+
+const s = 'babad'
+console.log(`longestPalindrome(${s}): ${longestPalindrome(s)}`) // "aba"
+
+const s2 = 'cbbd'
+console.log(`longestPalindrome(${s2}): ${longestPalindrome(s2)}`) // "bb"
