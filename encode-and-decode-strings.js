@@ -51,3 +51,11 @@ const decode = (s) => {
 
   return result
 }
+
+const strs = ['Hello', 'world', '!', 'This is a test string.']
+
+const encodedStr = encode(strs)
+console.log(encodedStr) // Outputs "5:Hello5:world1:!23:This is a test string."
+
+const decodedStrs = decode(encodedStr)
+console.log(decodedStrs) // Outputs ["Hello", "world", "!", "This is a test string."]
