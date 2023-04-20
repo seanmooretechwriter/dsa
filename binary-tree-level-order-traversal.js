@@ -64,3 +64,20 @@ const levelOrder = (root) => {
 
   return result
 }
+
+const tree1 = null
+console.log('levelOrder(tree1): ', levelOrder(tree1)) // []
+
+const tree2 = { val: 1, left: null, right: null }
+console.log('levelOrder(tree2): ', levelOrder(tree2)) // [[1]]
+
+const tree3 = {
+  val: 3,
+  left: { val: 9, left: null, right: null },
+  right: {
+    val: 20,
+    left: { val: 15, left: null, right: null },
+    right: { val: 7, left: null, right: null },
+  },
+}
+console.log('levelOrder(tree3): ', levelOrder(tree3)) // [[3], [9, 20], [15, 7]]
