@@ -39,9 +39,107 @@ Blind 75 is a curated list of 75 frequently asked LeetCode interview questions, 
 - Tries
 - Union Find
 
-These topics cover a wide range of Data Structures and Algorithms (DSA) concepts that are frequently asked in coding interviews. By mastering the Blind 75 list, one can develop a strong foundation in DSA, and increase their chances of success in technical interviews.
+Blind75 LeetCode problems list
 
-Data structures and algorithms are fundamental topics in computer science that rely heavily on mathematical concepts. Some of the most important math concepts to learn for data structures and algorithms are:
+Array:
+- Contains Duplicate
+- Two Sum
+- Best Time to Buy and Sell Stock
+- Product of Array Except Self
+- Maximum Subarray
+- Maximum Product Subarray
+- Find Minimum in Rotated Sorted Array
+- Search in Rotated Sorted Array
+- Container With Most Water
+- 3 Sum
+
+Binary:
+- Number of 1 Bits
+- Reverse Bits
+- Sum of Two Integers
+- Missing Number
+- Counting Bits
+
+Dynamic Programming:
+- Climbing Stairs
+- Coin Change
+- Combination Sum
+- Unique Paths
+- House Robber
+- Decode Ways
+- Longest Increasing Subsequence
+- Longest Common Subsequence
+- Jump Game
+- House Robber II
+- Word Break Problem
+
+Graph:
+- Clone Graph
+- Number of Islands
+- Course Schedule
+- Pacific Atlantic Water Flow
+- Number of Connected Components in an Undirected Graph
+- Graph Valid Tree
+- Longest Consecutive Sequence
+- Alien Dictionary
+
+Interval:
+- Missing Number
+- Insert Interval
+- Merge Intervals
+- Non-overlapping Intervals
+- Meeting Rooms
+- Meeting Rooms II
+
+Linked List:
+- Reverse a Linked List
+- Merge Two Sorted Lists
+- Remove Nth Node From End Of List
+- Detect Cycle in a Linked List
+- Reorder List
+- Merge K Sorted Lists
+
+Matrix:
+- Set Matrix Zeroes
+- Spiral Matrix
+- Rotate Image
+- Word Search
+
+String:
+- Valid Parentheses
+- Valid Palindrome
+- Valid Anagram
+- Longest Substring Without Repeating Characters
+- Longest Repeating Character Replacement
+- Minimum Window Substring
+- Group Anagrams
+- Palindromic Substrings
+- Longest Palindromic Substring
+- Encode and Decode Strings
+
+Tree:
+- Same Tree
+- Maximum Depth of Binary Tree
+- Invert/Flip Binary Tree
+- Binary Tree Level Order Traversal
+- Subtree of Another Tree
+- Construct Binary Tree from Preorder and Inorder Traversal
+- Lowest Common Ancestor of BST
+- Validate Binary Search Tree
+- Kth Smallest Element in a BST
+- Binary Tree Maximum Path Sum
+- Implement Trie (Prefix Tree)
+- Add and Search Word
+- Word Search II
+
+Heap:
+- Top K Frequent Elements
+- Find Median from Data Stream
+- Merge K Sorted Lists
+
+Topics cover a wide range of data structures and algorithms (DSA) concepts that are frequently asked in coding interviews. By mastering the Blind 75 list, one can develop a strong foundation in DSA, and increase their chances of success in technical interviews.
+
+DSA is a collection of fundamental computer science concepts that rely heavily on mathematical concepts. Some of the most important math concepts to learn for data structures and algorithms are:
 
 Discrete Mathematics: Discrete mathematics is the study of mathematical structures that are discrete and countable, such as graphs, sets, and logic. Many concepts in data structures and algorithms, such as graph theory, combinatorics, and Boolean algebra, are based on discrete mathematics.
 
