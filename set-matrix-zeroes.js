@@ -92,9 +92,9 @@ const matrix = [
 ]
 
 console.log('Before:')
-console.log(matrix)
+console.log(matrix) // [ [ 1, 1, 1 ], [ 1, 0, 1 ], [ 1, 1, 1 ] ]
 
 setZeroes(matrix)
 
 console.log('After:')
-console.log(matrix)
+console.log(matrix) // [ [ 1, 0, 1 ], [ 0, 0, 0 ], [ 1, 0, 1 ] ]
