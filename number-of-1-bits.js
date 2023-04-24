@@ -50,6 +50,14 @@ console.log('hammingWeight(11): ', hammingWeight(11)) // 3
 
 // Follow up: If this function is called many times, how would you optimize it?
 
+/*
+
+This implementation uses a Map object to cache the results of previous function calls. If the result for a given input n is already in the Map, the function returns the cached result instead of recomputing it.
+
+Using memoization can significantly improve the performance of the hammingWeight function when it's called many times with the same inputs. However, memoization may not be useful if the inputs are different each time the function is called. In that case, other optimization techniques, such as algorithmic optimization, may be more appropriate.
+
+*/
+
 const memo = new Map()
 
 function hammingWeightOptimized(n) {
