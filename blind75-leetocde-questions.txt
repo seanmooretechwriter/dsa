@@ -1,0 +1,93 @@
+Array:
+Contains Duplicate - time: O(n), space O(n)
+Two Sum - time: O(n), space O(n)
+Best Time to Buy and Sell Stock - time: O(n), space O(1)
+Product of Array Except Self - time: O(n), space O(n)
+Maximum Subarray - time: O(n), space O(1)
+Maximum Product Subarray - time: O(n), space O(1)
+Find Minimum in Rotated Sorted Array - time: O(logn), space O(1)
+Search in Rotated Sorted Array - time: O(logn), space O(1)
+Container With Most Water - time: O(n), space O(1)
+3 Sum - time: O(n^2), space O(1)
+
+Binary:
+Number of 1 Bits - time: O(1), space O(1)
+Reverse Bits - time: O(1), space O(1)
+Sum of Two Integers - time: O(1), space O(1)
+Missing Number - time: O(n), space O(1)
+Counting Bits - time: O(n), space O(n)
+
+Dynamic Programming:
+Climbing Stairs - time: O(n), space O(1)
+Coin Change - time: O(n*amount), space O(amount)
+Combination Sum - time: O(k * 2^n), space O(n)
+Unique Paths - time: O(m * n), space O(n)
+House Robber - time: O(n), space O(1)
+Decode Ways - time: O(n), space O(1)
+Longest Increasing Subsequence - time: O(n^2), space O(n)
+Longest Common Subsequence - time: O(mn), space O(min(m, n))
+Jump Game - time: O(n), space O(1)
+House Robber II - time: O(n), space O(1)
+Word Break Problem - time: O(n^3), space O(n)
+
+Graph:
+Clone Graph - time: O(V + E), space O(V)
+Number of Islands - time: O(mn), space O(mn)
+Course Schedule - time: O(V + E), space O(V + E)
+Pacific Atlantic Water Flow - time: O(m * n), space O(m * n)
+Number of Connected Components in an Undirected Graph - time: O(n + m), space O(n)
+Graph Valid Tree - time: O(V + E), space O(V)
+Longest Consecutive Sequence - time: O(n), space O(n)
+Alien Dictionary - time: O(C), space O(1), where C is the total length of all words in the input list.
+
+Interval:
+Missing Number - time: O(n), space O(1)
+Insert Interval - time: O(n), space O(n)
+Merge Intervals - time: O(n log n), space O(n)
+Non-overlapping Intervals - time: O(n log n), space O(n)
+Meeting Rooms - time: O(n log n), space O(n)
+Meeting Rooms II - time: O(n log n), space O(n)
+Reverse a Linked List - time: O(n), space O(1)
+Merge Two Sorted Lists - time: O(n), space O(1)
+Remove Nth Node From End Of List - time: O(n), space O(1)
+Detect Cycle in a Linked List - time: O(n), space O(1)
+Reorder List - time: O(n), space O(1)
+Merge K Sorted Lists - time: O(n log k), space O(k) where n is the total number of elements in all lists, and k is the number of lists.
+
+Matrix:
+Set Matrix Zeroes - time: O(mn), space O(1)
+Spiral Matrix - time: O(mn), space O(1)
+Rotate Image - time: O(n^2), space O(1)
+Word Search - time: O(mn*4^s) where m is the number of rows, n is the number of columns, and s is the length of the word to be searched. The space complexity is O(s) for the recursive call stack.
+
+String:
+Valid Parentheses - time: O(n), space O(n)
+Valid Palindrome - time: O(n), space O(1)
+Valid Anagram - time: O(nlogn), space O(1)
+Longest Substring Without Repeating Characters - time: O(n), space O(min(n, k)), where k is the size of the character set
+Longest Repeating Character Replacement - time: O(n), space O(1)
+Minimum Window Substring - time: O(n), space O(k), where k is the size of the character set
+Group Anagrams - time: O(nklogk), space O(nk)
+Palindromic Substrings - time: O(n^2), space O(n^2)
+Longest Palindromic Substring - time: O(n^2), space O(n^2)
+Encode and Decode Strings - time: O(n), space O(n)
+
+Tree:
+Same Tree - time: O(n), space O(h) where n is the number of nodes in the tree and h is the height of the tree.
+Maximum Depth of Binary Tree - time: O(n), space O(h)
+Invert/Flip Binary Tree - time: O(n), space O(h)
+Binary Tree Level Order Traversal - time: O(n), space O(n)
+Subtree of Another Tree - time: O(mn) in the worst case where m and n are the number of nodes in the two trees, and space O(h) for the recursive call stack.
+Construct Binary Tree from Preorder and Inorder Traversal - time: O(n), space O(n) where n is the number of nodes in the tree.
+Lowest Common Ancestor of BST - time: O(h), space O(h)
+Validate Binary Search Tree - time: O(n), space O(h)
+Kth Smallest Element in a BST - time: O(h + k), space O(h)
+Binary Tree Maximum Path Sum - time: O(n), space O(h)
+Implement Trie (Prefix Tree) - time: O(n), space O(n) where n is the total number of characters in the trie.
+Add and Search Word - time: O(n), space O(n)
+Word Search II - time: O(mn4^sL) where m is the number of rows, n is the number of columns, s is the maximum length of a word in the dictionary, and L is the number of words in the dictionary. The space complexity is O(Ls) for the trie used to store the words in the dictionary.
+
+Heap:
+Top K Frequent Elements - time: O(n log k), space: O(n)
+Find Median from Data Stream - time: O(log n), space: O(n)
+Merge K Sorted Lists - time: O(n log k), space: O(k)
