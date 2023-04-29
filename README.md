@@ -42,6 +42,7 @@ Blind 75 is a curated list of 75 frequently asked LeetCode interview questions, 
 Blind75 LeetCode problems list
 
 Array:
+
 - Contains Duplicate
 - Two Sum
 - Best Time to Buy and Sell Stock
@@ -54,6 +55,7 @@ Array:
 - 3 Sum
 
 Binary:
+
 - Number of 1 Bits
 - Reverse Bits
 - Sum of Two Integers
@@ -61,6 +63,7 @@ Binary:
 - Counting Bits
 
 Dynamic Programming:
+
 - Climbing Stairs
 - Coin Change
 - Combination Sum
@@ -74,6 +77,7 @@ Dynamic Programming:
 - Word Break Problem
 
 Graph:
+
 - Clone Graph
 - Number of Islands
 - Course Schedule
@@ -84,6 +88,7 @@ Graph:
 - Alien Dictionary
 
 Interval:
+
 - Missing Number
 - Insert Interval
 - Merge Intervals
@@ -92,6 +97,7 @@ Interval:
 - Meeting Rooms II
 
 Linked List:
+
 - Reverse a Linked List
 - Merge Two Sorted Lists
 - Remove Nth Node From End Of List
@@ -100,12 +106,14 @@ Linked List:
 - Merge K Sorted Lists
 
 Matrix:
+
 - Set Matrix Zeroes
 - Spiral Matrix
 - Rotate Image
 - Word Search
 
 String:
+
 - Valid Parentheses
 - Valid Palindrome
 - Valid Anagram
@@ -118,6 +126,7 @@ String:
 - Encode and Decode Strings
 
 Tree:
+
 - Same Tree
 - Maximum Depth of Binary Tree
 - Invert/Flip Binary Tree
@@ -133,6 +142,7 @@ Tree:
 - Word Search II
 
 Heap:
+
 - Top K Frequent Elements
 - Find Median from Data Stream
 - Merge K Sorted Lists
@@ -154,3 +164,20 @@ Number Theory: Number theory is the study of integers and their properties. It i
 Combinatorics: Combinatorics is the study of counting and arrangements. It is important in understanding the complexity of algorithms that involve permutations, combinations, and arrangements.
 
 Set Theory: Set theory is the study of sets and their properties. It is important in understanding the data structures that are used to store and manipulate sets, such as hash tables and binary search trees.
+
+Additional useful information from: https://interviewnoodle.com/youre-doing-leetcode-wrong-here-s-how-to-get-the-maximum-benefit-5517af5ce884
+
+- Finding out if a path exists? DFS
+- Finding the shortest path? BFS
+- Cycle detection (linked list, array)? Floyds method
+- Finding missing/repeated numbers? Gauss summation formula or Bitwise operations
+- Hash maps: too general to say, lots of uses. ie., counting occurrences of characters in a string, keeping track of index where a character last appeared, etc.
+- Heap: priority queue for certain graph algorithms, when you need quick access to highest/lowest element already processed, but may need to access more than one element.
+
+Five major algorithms topics
+
+- Ad hoc/ Implementation Problems
+- Programming Paradigm(Greedy, backtracking, branch and bound, DP, Divide and Conquer, Brute force etc.)
+- Graph Theory(directed, undirected, weighted, rooted(IN & OUT) and unrooted tree, DAG etc.)
+- Math(Number theory, Computational Geometry, Combinatorics, Linear Algebra etc.)
+- Others(String Processing, Bit Manipulation etc.)

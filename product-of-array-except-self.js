@@ -14,6 +14,7 @@ Example 1:
 
 Input: nums = [1,2,3,4]
 Output: [24,12,8,6]
+
 Example 2:
 
 Input: nums = [-1,1,0,-3,3]
@@ -43,16 +44,16 @@ const productExceptSelfSimple = (nums) => {
 }
 
 const productExceptSelf = (nums) => {
-  const n = nums.length
+  const numCount = nums.length
   const output = new Array(n).fill(1)
   let leftProduct = 1
   let rightProduct = 1
 
-  for (let i = 0; i < n; i++) {
+  for (let i = 0; i < numCount; i++) {
     output[i] *= leftProduct
     leftProduct *= nums[i]
-    output[n - i - 1] *= rightProduct
-    rightProduct *= nums[n - i - 1]
+    output[numCount - i - 1] *= rightProduct
+    rightProduct *= nums[numCount - i - 1]
   }
 
   return output
