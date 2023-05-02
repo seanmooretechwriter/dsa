@@ -44,20 +44,32 @@ const productExceptSelfSimple = (nums) => {
 }
 
 const productExceptSelf = (nums) => {
-  const numCount = nums.length
-  const output = new Array(n).fill(1)
+  const products = new Array(nums.length).fill(1)
   let leftProduct = 1
   let rightProduct = 1
 
-  for (let i = 0; i < numCount; i++) {
-    output[i] *= leftProduct
+  for (let i = 0; i < nums.length; i++) {
+    products[i] *= leftProduct
     leftProduct *= nums[i]
-    output[numCount - i - 1] *= rightProduct
-    rightProduct *= nums[numCount - i - 1]
+
+    const rightArrayIndex = nums.length - i - 1
+
+    products[rightArrayIndex] *= rightProduct
+    rightProduct *= nums[rightArrayIndex]
   }
 
-  return output
+  return products
 }
+
+/*
+
+input: [1, 2, 3, 4]
+i:  0 numCount:  4 1 rightProduct:  4 output:  [ 1, 1, 1, 1 ]
+i:  1 numCount:  4 2 rightProduct:  12 output:  [ 1, 1, 4, 1 ]
+i:  2 numCount:  4 6 rightProduct:  24 output:  [ 1, 12, 8, 1 ]
+i:  3 numCount:  4 24 rightProduct:  24 output:  [ 24, 12, 8, 6 ]
+
+*/
 
 const a = [1, 2, 3, 4]
 console.log(`productExceptSelf(${a}): ${productExceptSelf(a)}`)

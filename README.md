@@ -181,3 +181,60 @@ Five major algorithms topics
 - Graph Theory(directed, undirected, weighted, rooted(IN & OUT) and unrooted tree, DAG etc.)
 - Math(Number theory, Computational Geometry, Combinatorics, Linear Algebra etc.)
 - Others(String Processing, Bit Manipulation etc.)
+
+Named algorithms within each problem
+(Need to refine and edit this a bit.)
+Two Sum - Hash Table
+Best Time to Buy and Sell Stock - Kadane's Algorithm
+Contains Duplicate - Hash Table
+Product of Array Except Self - Prefix/Suffix Product
+Maximum Subarray - Kadane's Algorithm
+Maximum Product Subarray - Kadane's Algorithm
+Find Minimum in Rotated Sorted Array - Binary Search
+Search in Rotated Sorted Array - Binary Search
+Sort Colors - Dutch National Flag Algorithm
+Minimum Window Substring - Sliding Window
+Word Search - Backtracking
+Combination Sum - Backtracking
+Merge Intervals - Sorting
+Insert Interval - Sorting
+Longest Increasing Subsequence - Dynamic Programming (LIS)
+Valid Parentheses - Stack
+Evaluate Reverse Polish Notation - Stack
+Min Stack - Stack
+Implement Queue using Stacks - Stack/Queue
+Implement Stack using Queues - Stack/Queue
+Largest Rectangle in Histogram - Stack
+Binary Tree Inorder Traversal - Tree Traversal (Inorder)
+Binary Tree Level Order Traversal - Breadth-First Search (BFS)
+Construct Binary Tree from Preorder and Inorder Traversal - Tree Traversal (Preorder/Inorder)
+Serialize and Deserialize Binary Tree - Tree Traversal (Preorder/Inorder)
+Subtree of Another Tree - Tree Traversal (Preorder/Inorder)
+Validate Binary Search Tree - Tree Traversal (Inorder)
+Kth Smallest Element in a BST - Tree Traversal (Inorder)
+Lowest Common Ancestor of a Binary Tree - Tree Traversal (Postorder)
+Implement Trie (Prefix Tree) - Trie
+Add and Search Word - Trie
+Minimum Size Subarray Sum - Sliding Window
+Longest Substring Without Repeating Characters - Sliding Window
+Longest Palindromic Substring - Dynamic Programming
+Palindromic Substrings - Dynamic Programming
+House Robber - Dynamic Programming
+Maximum Product of Two Elements in an Array - Sorting
+Maximum Depth of Binary Tree - Depth-First Search (DFS)
+Diameter of Binary Tree - Depth-First Search (DFS)
+Symmetric Tree - Depth-First Search (DFS)
+Binary Tree Maximum Path Sum - Depth-First Search (DFS)
+Cousins in Binary Tree - Breadth-First Search (BFS)
+Number of Islands - Depth-First Search (DFS) / Breadth-First Search (BFS)
+Course Schedule - Topological Sort
+Clone Graph - Breadth-First Search (BFS)
+Alien Dictionary - Topological Sort
+Graph Valid Tree - Depth-First Search (DFS) / Breadth-First Search (BFS)
+Number of Connected Components in an Undirected Graph - Depth-First Search (DFS) / Breadth-First Search (BFS)
+Longest Consecutive Sequence - Hash Table
+Course Schedule II - Topological Sort
+Word Ladder - Breadth-First Search (BFS)
+Word Ladder II - Breadth-First Search (BFS)
+Merge k Sorted Lists - Merge Sort / Heap Sort
+Copy List with Random
