@@ -3,7 +3,8 @@
 153. Find Minimum in Rotated Sorted Array
 https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 
-Suppose an array of length n sorted in ascending order is rotated between 1 and n times. For example, the array nums = [0,1,2,4,5,6,7] might become:
+Suppose an array of length n sorted in ascending order is rotated between 1 and n times. 
+For example, the array nums = [0,1,2,4,5,6,7] might become:
 
 [4,5,6,7,0,1,2] if it was rotated 4 times.
 [0,1,2,4,5,6,7] if it was rotated 7 times.
@@ -44,6 +45,11 @@ const findMin = (nums) => {
   let left = 0
   let right = nums.length - 1
 
+  // The array is sorted, there is no need to run the algorithm.
+  if (nums[0] < nums[right]) {
+    return nums[0]
+  }
+
   while (left < right) {
     const mid = Math.floor((left + right) / 2)
 
@@ -52,16 +58,32 @@ const findMin = (nums) => {
     } else {
       right = mid
     }
-  }
 
+    console.log(
+      'mid: ',
+      mid,
+      'left',
+      left,
+      'right: ',
+      right,
+      'nums[mid]: ',
+      nums[mid],
+      'nums[right]: ',
+      nums[right],
+    )
+  }
+  console.log('nums: ', nums)
   return nums[left]
 }
 
 const a = [4, 5, 6, 7, 0, 1, 2]
-console.log(`findMin(a): ${findMin(a)}`)
+//console.log(`findMin(a): ${findMin(a)}`)
 
 const b = [5, 6, 7, 8, 9, 1, 2, 3]
-console.log(`findMin(b): ${findMin(b)}`)
+//console.log(`findMin(b): ${findMin(b)}`)
+
+const c = [1, 2, 3, 5, 6, 7, 8, 9]
+console.log(`findMin(c): ${findMin(c)}`)
 
 const findMinFP = (nums) => {
   const helper = (left, right) => {
