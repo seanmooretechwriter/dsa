@@ -3,7 +3,9 @@
 124. Binary Tree Maximum Path Sum
 https://leetcode.com/problems/binary-tree-maximum-path-sum/
 
-A path in a binary tree is a sequence of nodes where each pair of adjacent nodes in the sequence has an edge connecting them. A node can only appear in the sequence at most once. Note that the path does not need to pass through the root.
+A path in a binary tree is a sequence of nodes where each pair of adjacent nodes in the 
+sequence has an edge connecting them. A node can only appear in the sequence at most once. 
+Note that the path does not need to pass through the root.
 
 The path sum of a path is the sum of the node's values in the path.
 
@@ -56,3 +58,7 @@ const maxPathSum = (root) => {
 
 const tree = new TreeNode(1, new TreeNode(2), new TreeNode(3))
 console.log('maxPathSum(tree):', maxPathSum(tree)) // 6
+
+// [-10,9,20,null,null,15,7]
+const tree2 = new TreeNode(-10, new TreeNode(9), new TreeNode(3))
+console.log('maxPathSum(tree2):', maxPathSum(tree2)) // 42
