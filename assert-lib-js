@@ -1,0 +1,5 @@
+const assertEquals = (actual, expected, message) => {
+    if (actual !== expected) {
+      console.log(message || `Expected ${expected} but got ${actual}`)
+    }
+  }

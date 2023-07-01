@@ -3,7 +3,9 @@
 105. Construct Binary Tree from Preorder and Inorder Traversal
 https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 
-Given two integer arrays preorder and inorder where preorder is the preorder traversal of a binary tree and inorder is the inorder traversal of the same tree, construct and return the binary tree.
+Given two integer arrays preorder and inorder where preorder is the preorder traversal 
+of a binary tree and inorder is the inorder traversal of the same tree, construct and 
+return the binary tree.
 
 Example 1:
 (See tree graphic/image on LeetCode website.)
@@ -28,7 +30,7 @@ inorder is guaranteed to be the inorder traversal of the tree.
 
 */
 
-function TreeNode(val, left, right) {
+function TreeNode (val, left, right) {
   this.val = val === undefined ? 0 : val
   this.left = left === undefined ? null : left
   this.right = right === undefined ? null : right
@@ -54,12 +56,12 @@ const buildTree = function (preorder, inorder) {
     node.left = buildSubTree(
       preorderStart + 1,
       leftInorderStart,
-      leftInorderEnd,
+      leftInorderEnd
     )
     node.right = buildSubTree(
       preorderStart + 1 + (leftInorderEnd - leftInorderStart + 1),
       rightInorderStart,
-      rightInorderEnd,
+      rightInorderEnd
     )
 
     return node

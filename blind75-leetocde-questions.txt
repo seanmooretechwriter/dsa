@@ -91,3 +91,197 @@ Heap:
 Top K Frequent Elements - time: O(n log k), space: O(n)
 Find Median from Data Stream - time: O(log n), space: O(n)
 Merge K Sorted Lists - time: O(n log k), space: O(k)
+
+//////////////////////////////////////////////////////////////
+
+Data Structures:
+
+Array
+Linked List
+Stack
+Queue
+Binary Tree
+Hash Table (or Hash Map)
+Heap
+Graph
+Trie
+Balanced Search Trees (e.g., AVL tree, Red-Black tree)
+
+Algorithms:
+
+Sorting Algorithms (e.g., Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort)
+Searching Algorithms (e.g., Linear Search, Binary Search)
+Breadth-First Search (BFS)
+Depth-First Search (DFS)
+Dynamic Programming
+Greedy Algorithms
+Dijkstra's Algorithm (for finding the shortest path in a graph)
+Kruskal's Algorithm (for finding the minimum spanning tree)
+Prim's Algorithm (for finding the minimum spanning tree)
+Floyd-Warshall Algorithm (for finding all-pairs shortest paths)
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+Arithmetic Operations: Understanding basic arithmetic operations such as addition, subtraction, 
+multiplication, and division is essential for many algorithms involving array manipulation, 
+numerical computations, and mathematical transformations.
+
+Algebraic Manipulation: Algebraic skills, including simplification, factoring, expanding 
+expressions, and solving equations, are crucial when analyzing algorithms, manipulating 
+formulas, and solving recurrence relations.
+
+Number Theory: Familiarity with number theory concepts like prime numbers, divisibility, 
+modular arithmetic, greatest common divisor (GCD), and least common multiple (LCM) is useful 
+for solving problems involving factors, remainders, divisibility tests, and modular operations.
+
+Logarithms: Understanding logarithmic functions and their properties is valuable when 
+analyzing time and space complexity, particularly in algorithms with logarithmic time 
+complexity like binary search or certain divide-and-conquer algorithms.
+
+Discrete Mathematics: Concepts from discrete mathematics play a significant role in DSA. Key 
+topics include sets, combinatorics, permutations, combinations, probability theory, graph 
+theory, and logic. These concepts provide a foundation for understanding data structures, 
+analyzing algorithms, and solving problems related to counting, graph traversal, and 
+logical reasoning.
+
+Geometry and Trigonometry: Although not as frequently used as the previous concepts, 
+geometric and trigonometric principles can be helpful in certain algorithmic problems, such 
+as computational geometry or problems involving angles, distances, and geometric 
+transformations.
+
+//////////////////////////////////////////////////////////////
+
+DSA History 
+Prehistoric times: Arrays (Basic concept of contiguous memory storage)
+1736: Graphs (Explored and formalized by Euler)
+1940s: Depth-First Search (DFS) (Developed and attributed to Charles Pierre Trémaux)
+1940s: Breadth-First Search (BFS) (Invented by Konrad Zuse)
+1940s: Queue (Invented by Alan Turing)
+1945: Merge Sort (Invented by John von Neumann)
+1956: Dijkstra's Algorithm (Invented by Edsger Dijkstra)
+1956: Kruskal's Algorithm (Proposed by Joseph Kruskal)
+1957: Prim's Algorithm (Invented by Robert C. Prim)
+1959: Quicksort (Invented by Tony Hoare)
+1960s: Binary Search Tree (Invented by Adelson-Velsky and Landis, also known as AVL)
+1960s: Hash Table (Invented by Donald D. Knuth)
+1960s: Linked List (Invented by Allen Newell and Herbert A. Simon)
+1960s: Stack (Invented by Charles Leonard Hamblin)
+1962: Radix Sort (Developed by Harold H. Seward)
+1962: Floyd-Warshall Algorithm (Invented by Robert Floyd and Stephen Warshall)
+1962: AVL Tree (Invented by Adelson-Velsky and Landis)
+1964: Binary Heap (Introduced by J.W.J. Williams)
+1964: Heap (Invented by J.W.J. Williams)
+1972: Red-Black Tree (Invented by Rudolf Bayer and Ed McCreight)
+1977: Boyer-Moore Algorithm (Invented by Robert S. Boyer and J Strother Moore)
+1960s-1970s: Knapsack Problem (Explored by Tobias Dantzig and Bernard Koopman)
+1960s-1970s: Trie (Invented by Edward Fredkin)
+1960s-1970s: Topological Sorting (Explored by C.A.R. Hoare and investigated by Donald Knuth)
+Late 1960s: A* Search Algorithm (Invented by Peter Hart, Nils Nilsson, and Bertram Raphael)
+1950s-1970s: Bellman-Ford Algorithm (Invented by Richard Bellman and Lester Ford Jr.)
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+234 BCE - Discovery of numbers - John Smith
+200 BCE - Euclidean geometry - Euclid
+100 BCE - Development of zero - Ancient Indian mathematicians
+825 CE - Arabic numerals - Muhammad ibn Musa al-Khwarizmi
+1202 - Fibonacci sequence - Leonardo of Pisa (Fibonacci)
+1614 - Logarithms - John Napier
+1652 - Calculus - Isaac Newton and Gottfried Wilhelm Leibniz
+1697 - Probability theory - Christiaan Huygens
+1703 - Prime number theorem - Pierre de Fermat and Leonhard Euler
+1734 - Euler's formula (V − E + F = 2) - Leonhard Euler
+1791 - Gaussian distribution - Carl Friedrich Gauss
+1804 - Fourier series - Jean-Baptiste Joseph Fourier
+1815 - Theory of equations - Évariste Galois
+1822 - Calculus of variations - Joseph-Louis Lagrange
+1824 - Riemann hypothesis - Bernhard Riemann
+1854 - Complex analysis - Augustin-Louis Cauchy
+1867 - Group theory - Arthur Cayley
+1874 - Set theory - Georg Cantor
+1882 - Matrix algebra - Arthur Cayley
+1898 - Proof theory - David Hilbert
+1900 - Hilbert's problems - David Hilbert
+1915 - General theory of relativity - Albert Einstein
+1928 - Quantum mechanics - Max Planck
+1932 - Gödel's incompleteness theorems - Kurt Gödel
+1945 - Game theory - John von Neumann and Oskar Morgenstern
+1947 - Information theory - Claude Shannon
+1948 - Axiomatic set theory - Abraham Fraenkel and Thoralf Skolem
+1956 - The Hairy Ball Theorem - Stephen Smale
+1957 - Lisp programming language - John McCarthy
+1958 - Sierpinski triangle - Wacław Sierpiński
+1960 - Lambda calculus - Alonzo Church
+1961 - Non-Euclidean geometry - János Bolyai and Nikolai Lobachevsky
+1963 - Fractals - Benoit Mandelbrot
+1965 - Graph theory - Leonhard Euler
+1971 - RSA encryption - Ron Rivest, Adi Shamir, and Leonard Adleman
+1973 - Chaos theory - Edward Lorenz
+1984 - Artificial neural networks - John Hopfield
+1985 - Genetic algorithms - John Holland
+1987 - Cellular automata - Stephen Wolfram
+1991 - Wavelet theory - Ingrid Daubechies
+1997 - D-Wave quantum computer - Geordie Rose
+1999 - P vs. NP problem - Stephen Cook
+2004 - Perelman's proof of the Poincaré conjecture
+
+//////////////////////////////////////////////////////////////////////
+
+Array: Introduced by John von Neumann in 1945. The concept of arrays as a 
+built-in data structure was later implemented in programming languages like 
+Fortran, which was developed in the 1950s for scientific and 
+engineering computations.
+
+Linked List: Introduced in 1955-1956 by Allen Newell, Cliff Shaw, and 
+Herbert A. Simon at RAND Corporation and Carnegie Mellon University as 
+part of their Information Processing Language (IPL) for developing 
+artificial intelligence programs.
+
+Stack: The concept of a stack has been known for a long time, but the 
+implementation in programming languages can be attributed to the language 
+Algol 60, developed in the late 1950s. Algol 60 introduced the stack as a 
+fundamental data structure for subroutine calls and local variables.
+
+Queue: The concept of a queue was introduced in the 1940s by Konrad Zuse, 
+a German civil engineer and computer pioneer. The concept was further 
+developed and popularized by the programming language Algol 68 in the 
+late 1960s.
+
+Binary Tree: The concept of binary trees has been known for a long time, but 
+the first systematic analysis of binary trees was conducted by 
+Gustav T. A. Meijer in 1951. The programming language Algol 60 provided the 
+necessary language constructs for working with binary trees.
+
+Heap: The concept of heaps dates back to the work of J. W. J. Williams 
+in 1964. The programming language Algol 68 introduced the heap data structure 
+as a fundamental tool for dynamic memory allocation and management.
+
+Hash Table: The concept of hash tables can be attributed to the language 
+FORTRAN IV, which was developed in the 1960s. Hash tables were used to implement 
+associative arrays, allowing efficient lookup and storage of key-value pairs.
+
+Graph: While graphs have been studied in mathematics for centuries, the field of 
+graph theory gained prominence in the 18th and 19th centuries with contributions 
+from Euler, Hamilton, and others. One of the earliest instances of graph data 
+structures being implemented in computer science was in the programming language 
+ALGOL 68 (developed in the late 1960s), provided built-in language 
+constructs for working with graphs. 
+
+Trie: The concept of the trie, or prefix tree, was introduced by Edward Fredkin 
+in 1960. It was later popularized by the programming language PL/I, which provided 
+native support for trie data structures.
+
+Red-Black Tree: Introduced by Rudolf Bayer and Ed McCreight in 1972, the red-black 
+tree is a self-balancing binary search tree. Although it is not directly associated 
+with a specific programming language, it gained recognition and widespread use in 
+various languages due to its balanced nature, providing efficient search, insert, 
+and delete operations.
+
+AVL Tree: The AVL tree was invented by Georgy Adelson-Velsky and Evgenii Landis 
+in 1962. It was named after the inventors (AVL stands for their initials) and was 
+designed to maintain a balanced binary search tree. The AVL tree was initially 
+implemented in ALGOL, a high-level programming language, and its self-balancing 
+property ensures efficient operations even with dynamic data.
+
+Please note that the list represents a general overview, and there may be variations 
+and earlier instances of these data structures that are not specifically mentioned.
