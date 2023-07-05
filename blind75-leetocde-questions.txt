@@ -285,3 +285,108 @@ property ensures efficient operations even with dynamic data.
 
 Please note that the list represents a general overview, and there may be variations 
 and earlier instances of these data structures that are not specifically mentioned.
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+Grokking the Coding Interview Patterns
+
+Sliding Window Pattern:
+  Maximum Sum Subarray of Size K (Blind 75: Problem #2)
+  Longest Substring with K Distinct Characters
+  Smallest Subarray with a Given Sum
+
+Two Pointers Pattern:
+  Pair with Target Sum (Blind 75: Problem #1)
+  Remove Duplicates (Blind 75: Problem #5)
+  Squaring a Sorted Array
+
+Fast and Slow Pointers Pattern:
+  Linked List Cycle (Blind 75: Problem #4)
+  Middle of the Linked List
+  Palindrome Linked List
+
+Merge Intervals Pattern:
+  Merge Intervals (Blind 75: Problem #15)
+  Insert Interval
+  Intervals Intersection
+
+Cyclic Sort Pattern:
+  Find the Missing Number (Blind 75: Problem #3)
+  Find all Missing Numbers
+  Find the Duplicate Number
+
+In-place Reversal of a Linked List Pattern:
+  Reverse a Linked List (Blind 75: Problem #6)
+  Reverse Linked List II
+  Reverse Nodes in k-Group
+
+Tree Breadth-First Search (BFS) Pattern:
+  Binary Tree Level Order Traversal (Blind 75: Problem #7)
+  Connect All Level Order Siblings
+  Minimum Depth of Binary Tree
+
+Tree Depth-First Search (DFS) Pattern:
+  Binary Tree Path Sum (Blind 75: Problem #9)
+  All Paths for a Sum
+  Sum of Path Numbers
+
+Two Heaps Pattern:
+  Find Median from Data Stream (Blind 75: Problem #13)
+  Sliding Window Median
+  Kth Smallest Number in a Sorted Matrix
+
+Subsets Pattern:
+  Subsets (Blind 75: Problem #11)
+  Subsets with Duplicates
+  Permutations (Blind 75: Problem #12)
+
+Modified Binary Search Pattern:
+  Binary Search (Blind 75: Problem #8)
+  Order-agnostic Binary Search
+  Ceiling of a Number
+
+Top "K" Elements Pattern:
+  Top K Frequent Elements (Blind 75: Problem #10)
+  Kth Largest Element in an Array
+  K Closest Points to the Origin
+
+K-way Merge Pattern:
+  Merge K Sorted Lists (Blind 75: Problem #16)
+  Kth Smallest Number in M Sorted Lists
+  Smallest Number Range
+
+0/1 Knapsack Pattern:
+  0/1 Knapsack (Blind 75: Problem #22)
+  Equal Subset Sum Partition
+  Minimum Subset Sum Difference
+
+Topological Sort (Graph) Pattern:
+  Course Schedule II (Blind 75: Problem #17)
+  Alien Dictionary
+  Tasks Scheduling
+
+Biconnected Components (Graph) Pattern:
+  Critical Connections (Blind 75: Problem #40)
+  Network Delay Time
+  Time Needed to Inform All Employees
+
+Shortest Path (Graph) Pattern:
+  Dijkstra's Algorithm (Blind 75: Problem #21)
+  Minimum Cost to Connect Ropes
+  Shortest Path with Alternating Colors
+
+Inorder Traversal with a Previous Pointer (Binary Tree) Pattern:
+  Binary Tree Inorder Traversal (Blind 75: Problem #18)
+  Flatten Binary Tree to Linked List
+  Recover Binary Search Tree
+
+Red-Black Tree Pattern:
+  Count of Smaller Numbers After Self (Blind 75: Problem #43)
+  Kth Smallest Element in a Sorted Matrix
+  Convert BST to Greater Tree
+
+Trie (Prefix Tree) Pattern:
+  Word Search II (Blind 75: Problem #38)
+  Implement Trie (Prefix Tree)
+  Design Add and Search Words Data Structure
+
