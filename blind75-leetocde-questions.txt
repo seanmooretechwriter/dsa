@@ -1,3 +1,13 @@
+Don't Miss the Big Picture: When studying data structures and algorithms, it's important to grasp the overall concept and purpose behind them. Understand how they fit into the larger context of problem-solving and algorithmic design.
+
+Don't be a Passive Reader: Actively engage with the material. Experiment with code examples, work through problem-solving exercises, and try to implement the data structures and algorithms yourself. By doing so, you'll gain a deeper understanding and internalize the concepts.
+
+Don't Read Too Fast: Take your time to digest and comprehend the intricacies of data structures and algorithms. Rushing through the material may lead to misunderstandings or missed insights. Be patient and give yourself enough time to absorb the concepts thoroughly.
+
+Make the Idea Your Own: Instead of just memorizing formulas or implementations, strive to understand the underlying principles and reasoning behind data structures and algorithms. Try to explain them in your own words, implement them from scratch, and apply them to real-world problems. This active involvement will solidify your understanding and make the ideas truly your own.
+
+By applying these principles, you can develop a stronger comprehension of data structures and algorithms, just as the article suggests for reading mathematics. It's all about actively engaging with the material, understanding the big picture, and making the concepts your own through practice and reflection.
+
 Array:
 Contains Duplicate - time: O(n), space O(n)
 Two Sum - time: O(n), space O(n)
@@ -290,103 +300,112 @@ and earlier instances of these data structures that are not specifically mention
 
 Grokking the Coding Interview Patterns
 
+Denotes the problem also appears in the Grind75 list.
+
 Sliding Window Pattern:
-  Maximum Sum Subarray of Size K (Blind 75: Problem #2)
-  Longest Substring with K Distinct Characters
-  Smallest Subarray with a Given Sum
+
+- Maximum Sum Subarray of Size K (LC 53)*
+- Longest Substring with K Distinct Characters (LC 340)
+- Smallest Subarray with a Given Sum (LC 209)
 
 Two Pointers Pattern:
-  Pair with Target Sum (Blind 75: Problem #1)
-  Remove Duplicates (Blind 75: Problem #5)
-  Squaring a Sorted Array
+
+- Pair with Target Sum (LC 1)*
+- Remove Duplicates from Sorted Array (LC 26)*
+- Squares of a Sorted Array (LC 977)
 
 Fast and Slow Pointers Pattern:
-  Linked List Cycle (Blind 75: Problem #4)
-  Middle of the Linked List
-  Palindrome Linked List
+
+- LinkedList Cycle (LC 141)*
+- Middle of the Linked List (LC 876)
+- Linked List Cycle II (LC 142)
 
 Merge Intervals Pattern:
-  Merge Intervals (Blind 75: Problem #15)
-  Insert Interval
-  Intervals Intersection
+
+- Merge Intervals (LC 56)*
+- Insert Interval (LC 57)*
+- Intervals Intersection (LC 986)
 
 Cyclic Sort Pattern:
-  Find the Missing Number (Blind 75: Problem #3)
-  Find all Missing Numbers
-  Find the Duplicate Number
 
-In-place Reversal of a Linked List Pattern:
-  Reverse a Linked List (Blind 75: Problem #6)
-  Reverse Linked List II
-  Reverse Nodes in k-Group
+- Cyclic Sort (LC 287)*
+- Find the Missing Number (LC 268)*
+- Find All Missing Numbers (LC 448)
 
-Tree Breadth-First Search (BFS) Pattern:
-  Binary Tree Level Order Traversal (Blind 75: Problem #7)
-  Connect All Level Order Siblings
-  Minimum Depth of Binary Tree
+In-place Reversal of a LinkedList Pattern:
 
-Tree Depth-First Search (DFS) Pattern:
-  Binary Tree Path Sum (Blind 75: Problem #9)
-  All Paths for a Sum
-  Sum of Path Numbers
+- Reverse a LinkedList (LC 206)*
+- Reverse Sublist (LC 92)
+- Reverse Nodes in k-Group (LC 25)
+
+Tree Breadth First Search Pattern:
+
+- Binary Tree Level Order Traversal (LC 102)*
+- Zigzag Level Order Traversal (LC 103)
+- Minimum Depth of Binary Tree (LC 111)
+
+Tree Depth First Search Pattern:
+
+- Binary Tree Path Sum (LC 112)*
+- All Paths from Source to Target (LC 797)
+- Sum Root to Leaf Numbers (LC 129)
 
 Two Heaps Pattern:
-  Find Median from Data Stream (Blind 75: Problem #13)
-  Sliding Window Median
-  Kth Smallest Number in a Sorted Matrix
+
+- Find Median from Data Stream (LC 295)
+- Sliding Window Median (LC 480)*
+- Kth Smallest Element in a Sorted Matrix (LC 378)
 
 Subsets Pattern:
-  Subsets (Blind 75: Problem #11)
-  Subsets with Duplicates
-  Permutations (Blind 75: Problem #12)
+
+- Subsets (LC 78)*
+- Subsets II (LC 90)
+- Permutations (LC 46)
 
 Modified Binary Search Pattern:
-  Binary Search (Blind 75: Problem #8)
-  Order-agnostic Binary Search
-  Ceiling of a Number
 
-Top "K" Elements Pattern:
-  Top K Frequent Elements (Blind 75: Problem #10)
-  Kth Largest Element in an Array
-  K Closest Points to the Origin
+- Binary Search (LC 704)*
+- Find Smallest Letter Greater Than Target (LC 744)
+- Search in Rotated Sorted Array (LC 33)
+
+Top 'K' Elements Pattern:
+
+- Top K Frequent Elements (LC 347)*
+- Kth Largest Element in an Array (LC 215)*
+- K Closest Points to Origin (LC 973)
 
 K-way Merge Pattern:
-  Merge K Sorted Lists (Blind 75: Problem #16)
-  Kth Smallest Number in M Sorted Lists
-  Smallest Number Range
 
-0/1 Knapsack Pattern:
-  0/1 Knapsack (Blind 75: Problem #22)
-  Equal Subset Sum Partition
-  Minimum Subset Sum Difference
+- Merge K Sorted Lists (LC 23)*
+- Kth Smallest Element in a Sorted Matrix (LC 378)*
+- Find K Pairs with Smallest Sums (LC 373)
 
-Topological Sort (Graph) Pattern:
-  Course Schedule II (Blind 75: Problem #17)
-  Alien Dictionary
-  Tasks Scheduling
+0/1 Knapsack (Dynamic Programming) Pattern:
 
-Biconnected Components (Graph) Pattern:
-  Critical Connections (Blind 75: Problem #40)
-  Network Delay Time
-  Time Needed to Inform All Employees
+- 0/1 Knapsack (LC 474)*
+- Target Sum (LC 494)
+- Partition Equal Subset Sum (LC 416)
 
-Shortest Path (Graph) Pattern:
-  Dijkstra's Algorithm (Blind 75: Problem #21)
-  Minimum Cost to Connect Ropes
-  Shortest Path with Alternating Colors
+Topological Sort Pattern:
 
-Inorder Traversal with a Previous Pointer (Binary Tree) Pattern:
-  Binary Tree Inorder Traversal (Blind 75: Problem #18)
-  Flatten Binary Tree to Linked List
-  Recover Binary Search Tree
+- Course Schedule (LC 207)*
+- Alien Dictionary (LC 269)*
+- Sequence Reconstruction (LC 444)
 
-Red-Black Tree Pattern:
-  Count of Smaller Numbers After Self (Blind 75: Problem #43)
-  Kth Smallest Element in a Sorted Matrix
-  Convert BST to Greater Tree
+Minimize 'Max' Difference Pattern:
 
-Trie (Prefix Tree) Pattern:
-  Word Search II (Blind 75: Problem #38)
-  Implement Trie (Prefix Tree)
-  Design Add and Search Words Data Structure
+- Capacity To Ship Packages Within D Days (LC 1011)
+- Split Array Largest Sum (LC 410)*
+- Koko Eating Bananas (LC 875)
 
+Interval Merge Pattern:
+
+- Merge Intervals (LC 56)*
+- Insert Interval (LC 57)*
+- Non-overlapping Intervals (LC 435)*
+
+Palindromic Subsequence Pattern:
+
+- Longest Palindromic Subsequence (LC 516)*
+- Longest Palindromic Substring (LC 5)*
+- Count Different Palindromic Subsequences (LC 730)*
