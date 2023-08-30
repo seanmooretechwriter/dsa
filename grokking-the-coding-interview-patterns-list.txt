@@ -1,0 +1,21 @@
+Grokking the coding interview patterns list:
+
+Sliding Window
+Two Pointers
+Fast and Slow Pointers
+Merge Intervals
+Cyclic Sort
+In-place Reversal of a Linked List
+Tree Breadth-First Search (BFS)
+Tree Depth-First Search (DFS)
+Two Heaps
+Subsets
+Modified Binary Search
+Bitwise XOR
+Top 'K' Elements
+K-way Merge
+0/1 Knapsack (Dynamic Programming)
+Topological Sort (Graph)
+K-way Merge (K-way Merge)
+0/1 Knapsack (DP)
+Top 'K' Elements (K-way Merge)
